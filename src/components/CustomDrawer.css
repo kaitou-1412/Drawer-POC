@@ -1,0 +1,21 @@
+.toggle-button {
+  float: right;
+}
+
+.toggle-button-2 {
+  float: right;
+  margin-right: 250px;
+}
+
+/***** Slide Right *****/
+.slide-left {
+  animation: 0.23s slide-left;
+}
+@keyframes slide-left {
+  from {
+    margin-right: 0px;
+  }
+  to {
+    margin-right: 250px;
+  }
+}
